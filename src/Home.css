@@ -13,6 +13,7 @@
   display: inline-block;
   justify-content:space-evenly;
   flex-direction:column;
+  font: 14px/25px "Poppins", sans-serif;
 }
 .item {
   flex: 1;
@@ -78,7 +79,7 @@ p{
   padding: 30px;
 }
 .Contact-area p{
-
+  font: 14px/25px "Poppins", sans-serif;
   font-size: 20px;
   color: #ffffff;
   text-align: center;
@@ -91,7 +92,21 @@ p{
   background-repeat: no-repeat !important;
   padding: 25px;
 }
+.Copyrights p{
+  color: #ffffff;
+  text-align: center;
+  font: 14px/25px "Poppins", sans-serif;
+}
 .Contact-details{
   background-color: #000000 !important;
   padding: 80px;
+  display: flex;
+  flex-direction: row;
+}
+.Contact-details p,h3{
+  color: #ffffff;
+  font: "Poppins", sans-serif;
+}
+.det{
+  padding-left: 170px;
 }

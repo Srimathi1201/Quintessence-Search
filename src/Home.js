@@ -13,6 +13,7 @@ import Technology from "./images/Technology.jpg";
 import Investment from "./images/Investment.jpg";
 import Management from "./images/Management.jpg";
 import Careers from "./images/Careers.jpg";
+import Countup from 'react-countup';
 
 function Home() {
 
@@ -66,7 +67,7 @@ function Home() {
                 </div>
             </div>
             {/* <div className="statics-data item">
-                <p>welccome</p>
+                <Countup end={100} duration={5}/>
             </div> */}
             <div className="area-content">
                 <div className="about-title slideInDown">
@@ -114,10 +115,21 @@ function Home() {
                 <p>We are here to answer your questions 24/7, NEED A CONSULTATION?</p>
             </div>
             <div className="Contact-details">
-                <p>We are here to answer your questions 24/7, NEED A CONSULTATION?</p>
+                <div className="det">
+                    <h3>Our Address</h3>
+                    <p>Chennai, India</p>
+                </div>
+                <div className="det">
+                    <h3>Our Mailbox</h3>
+                    <p>Email: info@quintessencesearchlabs.in</p>
+                </div>
+                <div className="det">
+                    <h3>Our Phone</h3>
+                    <p>Phone: +91 12345 67890</p>
+                </div>
             </div>
             <div className="Copyrights">
-                <p><i className="fa fa-copyright"></i> 2023 <a>Quintessence Search Labs</a></p>
+                <p>&#169; 2023 <a>Quintessence Search Labs</a></p>
             </div>
         </div>
     );
