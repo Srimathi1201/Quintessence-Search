@@ -108,29 +108,10 @@ function Home() {
                     <img src={Careers} />
                 </div>
                 <div>
-                    <p  id="mail-text">Interested to join us? Why wait, email your profile to <a href="mailto:hr@quintessencesearchlabs.in">hr@quintessencesearchlabs.in</a></p>
+                    <p  id="mail-text">Interested to join us? Why wait, email your profile to <a href="mailto:hr@quintessencesearchlabs.in">Vikram@quintessencesearchlabs.co.in</a></p>
                 </div>
             </div>
-            <div className="Contact-area">
-                <p>We are here to answer your questions 24/7, NEED A CONSULTATION?</p>
-            </div>
-            <div className="Contact-details">
-                <div className="det">
-                    <h3>Our Address</h3>
-                    <p>Chennai, India</p>
-                </div>
-                <div className="det">
-                    <h3>Our Mailbox</h3>
-                    <p>Email: info@quintessencesearchlabs.in</p>
-                </div>
-                <div className="det">
-                    <h3>Our Phone</h3>
-                    <p>Phone: +91 12345 67890</p>
-                </div>
-            </div>
-            <div className="Copyrights">
-                <p>&#169; 2023 <a>Quintessence Search Labs</a></p>
-            </div>
+            
         </div>
     );
 }

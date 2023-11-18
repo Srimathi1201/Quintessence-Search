@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import "./App.css";
 import {  Route, NavLink,Routes } from 'react-router-dom';
 import Home from './Home';
+import Footer from './Footer';
+import About from './About';
 
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false);
@@ -46,7 +48,7 @@ const Navbar = () => {
 
 const Careers = () => <h2>You are in the Blogs</h2>;
 const Services = () => <h2>You are in the Projects</h2>;
-const About = () => <h2>You are in the About</h2>;
+//const About = () => <h2>You are in the About</h2>;
 const Contact = () => <h2>You are in the Contact</h2>;
 
 function App () {
@@ -57,9 +59,10 @@ function App () {
         <Route exact path="/" element={<Home />} />
         <Route path="/careers" component={Careers} />
         <Route path="/services" component={Services} />
-        <Route path="/about" component={About} />
+        <Route path="/about" element={<About />} />
         <Route path="/contact" component={Contact} />
       </Routes>
+      <Footer />
     </>
   );
 };
